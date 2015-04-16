@@ -34,8 +34,8 @@
 		F559A2961ADF8A9900AD5334 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		F559A2971ADF8A9900AD5334 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		F559A29A1ADF8A9900AD5334 /* BJFStructure.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = BJFStructure.xcdatamodel; sourceTree = "<group>"; };
-		F559A29C1ADF8A9900AD5334 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		F559A29D1ADF8A9900AD5334 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		F559A29C1ADF8A9900AD5334 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ViewController.h; path = ../ViewController.h; sourceTree = "<group>"; };
+		F559A29D1ADF8A9900AD5334 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = ViewController.m; path = ../ViewController.m; sourceTree = "<group>"; };
 		F559A2A01ADF8A9900AD5334 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F559A2A21ADF8A9900AD5334 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		F559A2A51ADF8A9900AD5334 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
@@ -83,13 +83,18 @@
 		F559A2911ADF8A9900AD5334 /* BJFStructure */ = {
 			isa = PBXGroup;
 			children = (
+				F559A2BC1ADF8D9800AD5334 /* Controllers */,
+				F559A2BD1ADF8D9800AD5334 /* Database */,
+				F559A2BE1ADF8D9800AD5334 /* General */,
+				F559A2C11ADF8D9800AD5334 /* Macro */,
+				F559A2C21ADF8D9800AD5334 /* Models */,
+				F559A2C31ADF8D9800AD5334 /* Network */,
+				F559A2C41ADF8D9800AD5334 /* Resources */,
+				F559A2C51ADF8D9800AD5334 /* Storyboards */,
+				F559A2C61ADF8D9800AD5334 /* Vendors */,
+				F559A2C71ADF8D9800AD5334 /* Views */,
 				F559A2BB1ADF8C3E00AD5334 /* Appdelegate */,
-				F559A29C1ADF8A9900AD5334 /* ViewController.h */,
-				F559A29D1ADF8A9900AD5334 /* ViewController.m */,
-				F559A29F1ADF8A9900AD5334 /* Main.storyboard */,
 				F559A2A21ADF8A9900AD5334 /* Images.xcassets */,
-				F559A2A41ADF8A9900AD5334 /* LaunchScreen.xib */,
-				F559A2991ADF8A9900AD5334 /* BJFStructure.xcdatamodeld */,
 				F559A2921ADF8A9900AD5334 /* Supporting Files */,
 			);
 			path = BJFStructure;
@@ -128,6 +133,97 @@
 				F559A2971ADF8A9900AD5334 /* AppDelegate.m */,
 			);
 			name = Appdelegate;
+			sourceTree = "<group>";
+		};
+		F559A2BC1ADF8D9800AD5334 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		F559A2BD1ADF8D9800AD5334 /* Database */ = {
+			isa = PBXGroup;
+			children = (
+				F559A2991ADF8A9900AD5334 /* BJFStructure.xcdatamodeld */,
+			);
+			path = Database;
+			sourceTree = "<group>";
+		};
+		F559A2BE1ADF8D9800AD5334 /* General */ = {
+			isa = PBXGroup;
+			children = (
+				F559A2BF1ADF8D9800AD5334 /* Categories */,
+				F559A2C01ADF8D9800AD5334 /* Utils */,
+			);
+			path = General;
+			sourceTree = "<group>";
+		};
+		F559A2BF1ADF8D9800AD5334 /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Categories;
+			sourceTree = "<group>";
+		};
+		F559A2C01ADF8D9800AD5334 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		F559A2C11ADF8D9800AD5334 /* Macro */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Macro;
+			sourceTree = "<group>";
+		};
+		F559A2C21ADF8D9800AD5334 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		F559A2C31ADF8D9800AD5334 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		F559A2C41ADF8D9800AD5334 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		F559A2C51ADF8D9800AD5334 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				F559A2A41ADF8A9900AD5334 /* LaunchScreen.xib */,
+				F559A29F1ADF8A9900AD5334 /* Main.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		F559A2C61ADF8D9800AD5334 /* Vendors */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Vendors;
+			sourceTree = "<group>";
+		};
+		F559A2C71ADF8D9800AD5334 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				F559A29C1ADF8A9900AD5334 /* ViewController.h */,
+				F559A29D1ADF8A9900AD5334 /* ViewController.m */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -262,6 +358,7 @@
 				F559A2A01ADF8A9900AD5334 /* Base */,
 			);
 			name = Main.storyboard;
+			path = ..;
 			sourceTree = "<group>";
 		};
 		F559A2A41ADF8A9900AD5334 /* LaunchScreen.xib */ = {
@@ -270,6 +367,7 @@
 				F559A2A51ADF8A9900AD5334 /* Base */,
 			);
 			name = LaunchScreen.xib;
+			path = ..;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -446,7 +544,8 @@
 				F559A29A1ADF8A9900AD5334 /* BJFStructure.xcdatamodel */,
 			);
 			currentVersion = F559A29A1ADF8A9900AD5334 /* BJFStructure.xcdatamodel */;
-			path = BJFStructure.xcdatamodeld;
+			name = BJFStructure.xcdatamodeld;
+			path = ../BJFStructure.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;
 		};
