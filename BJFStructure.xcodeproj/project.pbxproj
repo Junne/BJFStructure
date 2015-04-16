@@ -83,8 +83,7 @@
 		F559A2911ADF8A9900AD5334 /* BJFStructure */ = {
 			isa = PBXGroup;
 			children = (
-				F559A2961ADF8A9900AD5334 /* AppDelegate.h */,
-				F559A2971ADF8A9900AD5334 /* AppDelegate.m */,
+				F559A2BB1ADF8C3E00AD5334 /* Appdelegate */,
 				F559A29C1ADF8A9900AD5334 /* ViewController.h */,
 				F559A29D1ADF8A9900AD5334 /* ViewController.m */,
 				F559A29F1ADF8A9900AD5334 /* Main.storyboard */,
@@ -120,6 +119,15 @@
 				F559A2B01ADF8A9900AD5334 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F559A2BB1ADF8C3E00AD5334 /* Appdelegate */ = {
+			isa = PBXGroup;
+			children = (
+				F559A2961ADF8A9900AD5334 /* AppDelegate.h */,
+				F559A2971ADF8A9900AD5334 /* AppDelegate.m */,
+			);
+			name = Appdelegate;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
